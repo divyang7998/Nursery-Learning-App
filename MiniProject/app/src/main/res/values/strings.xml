@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MiniProject</string>
+    <string name="heading">Heading</string>
+    <string name="math_n_lesson">Math \n Lesson</string>
+    <string name="for_nursery_kids">For Nursery Kids</string>
+    <string name="press_start_to_begin">Press Start to Begin</string>
+    <string name="todo">TODO</string>
+    <string name="number_tutorial">Number Tutorial</string>
+    <string name="nextbutton2">TODO</string>
+    <string name="add">TODO</string>
+    <string name="sub">TODO</string>
+    <string name="gk">TODO</string>
+    <string name="count">TODO</string>
+    <string name="drop_your_nanswer_here">Drop Your \nAnswer Here</string>
+    <string name="nine_activity4">TODO</string>
+    <string name="choose_answers_from_here">Choose Answers from Here</string>
+</resources>
