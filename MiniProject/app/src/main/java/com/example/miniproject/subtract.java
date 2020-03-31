@@ -84,14 +84,15 @@ public class subtract extends AppCompatActivity {
                         gif2.setVisibility(View.VISIBLE);
                         gif3.setVisibility(View.VISIBLE);
                         gif4.setVisibility(View.VISIBLE);
-                    }
-                    else{
-                        txt1.setText("Try Again");}
                     view.animate()
                             .x(txt1.getX())
                             .y(txt1.getY())
                             .setDuration(500)
                             .start();
+                    }
+                    else{
+                        txt1.setText("Try Again");}
+
                     break;
             }
             return true;

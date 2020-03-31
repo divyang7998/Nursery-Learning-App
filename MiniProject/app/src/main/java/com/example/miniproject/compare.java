@@ -64,14 +64,14 @@ public class compare extends AppCompatActivity {
                         txt1.setText("Answer is Correct");
                         txt1.setVisibility(View.GONE);
                         i++;
-                    }
-                    else{
-                        txt1.setText("Try Again");}
                     view.animate()
                             .x(txt1.getX())
                             .y(txt1.getY())
                             .setDuration(500)
                             .start();
+                    }
+                    else{
+                        txt1.setText("Try Again");}
                     if (i == 2)
                     {
                         txt3.setVisibility(View.GONE);
@@ -103,14 +103,14 @@ public class compare extends AppCompatActivity {
                         txt2.setText("Answer is Correct");
                         txt2.setVisibility(View.GONE);
                         i++;
-                    }
-                    else{
-                        txt2.setText("Try Again");}
                     view.animate()
                             .x(txt2.getX())
                             .y(txt2.getY())
                             .setDuration(500)
                             .start();
+                    }
+                    else{
+                        txt2.setText("Try Again");}
                     if (i == 2)
                     {
                         txt3.setVisibility(View.GONE);
