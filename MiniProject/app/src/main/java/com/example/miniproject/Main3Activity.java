@@ -63,11 +63,11 @@ public class Main3Activity extends AppCompatActivity {
         startActivity(intent);
     }
     private void openActivity6() {
-        Intent intent =new Intent(this,compare.class);
+        Intent intent =new Intent(this,gk.class);
         startActivity(intent);
     }
     private void openActivity7() {
-        Intent intent =new Intent(this,gk.class);
+        Intent intent =new Intent(this,compare.class);
         startActivity(intent);
     }
 }

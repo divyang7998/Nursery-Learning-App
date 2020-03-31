@@ -4,6 +4,188 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/subtract"
     tools:context=".subtract">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="427dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="199dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:foregroundTint="#000000"
+        android:text="@string/drop_your_nanswer_here"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="152dp"
+        android:background="#41000000"
+        android:text="@string/choose_answers_from_here"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="75dp"
+        android:contentDescription="@string/two_sub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/two" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="47dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="437dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/one_sub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/one" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gifbutton1"
+        android:layout_width="50dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="437dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="260dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="300dp"
+        android:contentDescription="@string/star_sub"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+        app:srcCompat="@drawable/star" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifview1"
+        android:layout_width="1920dp"
+        android:layout_height="1080dp"
+        android:layout_marginStart="366dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="365dp"
+        android:layout_marginBottom="205dp"
+        android:src="@drawable/confetti"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifview2"
+        android:layout_width="350dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="366dp"
+        android:layout_marginBottom="114dp"
+        android:background="#00000000"
+        android:src="@drawable/good"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifview3"
+        android:layout_width="500dp"
+        android:layout_height="474dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="580dp"
+        android:layout_marginBottom="288dp"
+        android:src="@drawable/fireworks"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifview4"
+        android:layout_width="500dp"
+        android:layout_height="474dp"
+        android:layout_marginStart="537dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="288dp"
+        android:src="@drawable/fireworks"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="54dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="274dp"
+        android:layout_marginEnd="466dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

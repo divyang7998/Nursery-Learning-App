@@ -20,7 +20,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
+    //packagingOptions {
+      //  exclude 'META-INF/androidx.legacy_legacy-support-core-utils.version'
+       // exclude 'META-INF/androidx.vectordrawable_vectordrawable.version'
+       // exclude 'META-INF/androidx.arch.core_core-runtime.version'
+        //exclude 'META-INF/androidx.loader_loader.version'
+        //exclude 'META-INF/androidx.versionedparcelable_versionedparcelable.version'
+       // exclude 'META-INF/androidx.lifecycle_lifecycle-livedata.version'
+       // exclude 'META-INF/androidx.vectordrawable_vectordrawable-animated.version'
+      //  exclude 'META-INF/androidx.savedstate_savedstate.version'
+      //  exclude 'META-INF/androidx.interpolator_interpolator.version'
+      //  exclude 'META-INF/androidx.activity_activity.version'
+      //  exclude 'META-INF/androidx.appcompat_appcompat.version'
+     //   exclude 'META-INF/proguard/coroutines.pro'
+     //   exclude 'META-INF/androidx.viewpager_viewpager.version'
+      //  exclude 'META-INF/LICENSE'
+      //  exclude 'META-INF/NOTICE'
+      //  exclude 'META-INF/androidx.cursoradapter_cursoradapter.version'
+      //  exclude 'META-INF/androidx.customview_customview.version'
+      //  exclude 'META-INF/androidx.lifecycle_lifecycle-viewmodel.version'
+      //  exclude 'META-INF/androidx.lifecycle_lifecycle-runtime.version'
+      //  exclude 'META-INF/androidx.fragment_fragment.version'
+    //}
 }
 
 dependencies {
@@ -32,6 +53,40 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation 'com.tomer:fadingtextview:1.8.1'
 
+    implementation 'com.tomer:fadingtextview:1.8.1'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+
+    // Core library
+    androidTestImplementation 'androidx.test:core:1.2.0'
+
+    // AndroidJUnitRunner and JUnit Rules
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+
+    // Assertions
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.ext:truth:1.2.0'
+    androidTestImplementation 'com.google.truth:truth:0.42'
+
+    // Espresso dependencies
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-accessibility:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-web:3.2.0'
+    androidTestImplementation 'androidx.test.espresso.idling:idling-concurrent:3.2.0'
+
+    // The following Espresso dependency can be either "implementation"
+    // or "androidTestImplementation", depending on whether you want the
+    // dependency to appear on your APK's compile classpath or the test APK
+    // classpath.
+    androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:3.2.0'
+}
+
+dependencies {
+    def fragment_version = "1.2.3"
+
+    // Java language implementation
+    implementation "androidx.fragment:fragment:$fragment_version"
 }
