@@ -14,7 +14,7 @@ Contributors:-
 
 References 
 1.  Special Thanks to https://slidesgo.com/theme/back-to-school-social-media 
-    Used there templates as a background images for this.
+    Used the PPT template as a background images for this.
 
 2.  Videos I Referred 
     https://www.youtube.com/watch?v=nluP-HkvfGM
